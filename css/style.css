@@ -1,0 +1,73 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+header {
+  height: 215px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 270px;
+}
+
+main {
+  padding-top: 55px;
+  /* background-color: aqua; */
+}
+
+.main-content {
+  display: flex;
+}
+
+.mockup {
+  width: 940px;
+}
+
+.main-texts {
+  padding-top: 60px;
+  padding-left: 80px;
+  color: #fff
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 77px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px; 
+  line-height: 42px;
+}
+
+.button {
+  padding: 25px 87px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: ;
+} 
+
+a{
+  text-decoration: none;
+}
+
+a {
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 30px;
+  border: 2px solid #111;
+  border-radius: 50%;
+  padding: 15px;
+  width: 65px;
+}
