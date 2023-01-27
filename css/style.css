@@ -19,8 +19,20 @@ header {
   margin: auto;
 }
 
+@media(max-width: 750px) {
+  header {
+    max-width: 600px;
+  }
+}
+
 .logo {
   width: 270px;
+}
+
+@media(max-width: 750px) {
+  .logo {
+    width: 200px;
+  }
 }
 
 main {
@@ -32,8 +44,21 @@ main {
   margin: auto;
 }
 
+@media(max-width: 750px) {
+  main {
+    max-width: 600px;
+    padding-top: 0px;
+  }
+}
+
 .main-content {
   display: flex;
+}
+
+@media(max-width: 750px) {
+  .main-content {
+    display: block;
+  }
 }
 
 .ilustracao {
@@ -51,11 +76,25 @@ main {
   color: #fff;
 }
 
+@media(max-width: 750px) {
+  .main-texts {
+    max-width: 600px;
+    padding: 0px;
+  }
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 60px;
   line-height: 73px;
+}
+
+@media(max-width: 750px) {
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
 }
 
 p {
@@ -65,6 +104,14 @@ p {
   font-weight: 400;
   font-size: 27px; 
   line-height: 33px;
+}
+
+@media(max-width: 750px) {
+  p {
+    text-align: center;
+    font-size: 33px;
+    line-height: 45px;
+  }
 }
 
 .button {
@@ -78,6 +125,14 @@ p {
   transition: 0.3s ease-in-out;
 } 
 
+@media(max-width: 750px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .button:hover {
   color: #fff;
   background-color: hsl(300, 69%, 71%);
@@ -89,6 +144,13 @@ footer {
   margin: 0 auto;
   padding: 25px 0;
   justify-content: space-between;
+}
+
+@media(max-width: 750px) {
+  footer {
+    display: block;
+    justify-content: center;
+  }
 }
 
 a {
